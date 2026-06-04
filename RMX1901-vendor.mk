@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
-    vendor/realme/RMX1901/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
@@ -693,11 +692,6 @@ PRODUCT_PACKAGES += \
     qcrild_librilutils \
     qtibus \
     qtimutex \
-    libBeautyShot_skel \
-    libdsp_streamer_add_constant \
-    libdsp_streamer_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hvx \
@@ -835,9 +829,6 @@ PRODUCT_PACKAGES += \
     libwfdavenhancements \
     libwfdmmsrc_system \
     libwfdservice \
-    libaiboost_skel \
-    libaiboost_skel_v65 \
-    libaiboost_skel_v66 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     com.qualcomm.qti.ant@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
@@ -917,7 +908,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.gnss@2.1-service-qti \
-    android.hardware.health@2.1-service \
     android.hardware.keymaster@3.0-service-qti \
     android.hardware.keymaster@4.0-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \

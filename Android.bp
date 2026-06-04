@@ -16,6 +16,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal-V1-ndk",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -41,6 +42,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "eglSubDriverAndroid",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -89,6 +91,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libEGL_adreno",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -135,6 +138,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLESv1_CM_adreno",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -179,6 +183,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLESv2_adreno",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -227,6 +232,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libq3dtools_adreno",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -269,6 +275,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libq3dtools_esx",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -309,8 +316,10 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+
 cc_prebuilt_library_shared {
     name: "vulkan.adreno",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -363,6 +372,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libC2D2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -404,6 +414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCB",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -449,6 +460,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOpenCL",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -488,6 +500,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVkLayer_q3dtools",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -525,6 +538,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadreno_utils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -562,6 +576,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadsp_default_listener",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -601,6 +616,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadsprpc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -650,6 +666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarm_proxy_skel",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -685,6 +702,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libc2d30_bltlib",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -726,6 +744,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdsp_default_listener",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -765,6 +784,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdsprpc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -814,6 +834,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdiag",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -853,6 +874,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdsutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -898,6 +920,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcvdsp_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -937,6 +960,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcvopt",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -982,6 +1006,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastrpc_utf_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1019,6 +1044,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpudataproducer",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1058,6 +1084,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgsl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1101,6 +1128,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhvx_proxy_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1132,13 +1160,13 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
     name: "libidl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1174,6 +1202,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libllvm-glnext",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1213,6 +1242,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libllvm-qcom",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1248,6 +1278,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmdmdetect",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1289,6 +1320,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmdsprpc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1338,6 +1370,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmosal_vendor",
+    check_elf_files: false,
     stem: "libmmosal",
     owner: "realme",
     strip: {
@@ -1380,6 +1413,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmpbase",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1409,6 +1443,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcmaputils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1448,6 +1483,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1497,6 +1533,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_cci",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1540,6 +1577,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_client_helper",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1591,6 +1629,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_client_qmux",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1638,6 +1677,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_common_so",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1677,6 +1717,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_csi",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1720,6 +1761,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_encdec",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1759,6 +1801,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmiservices",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1796,6 +1839,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveCommon",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1839,6 +1883,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveCommon_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1876,6 +1921,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectSegmentation",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1917,6 +1963,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectSegmentation_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1956,6 +2003,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectTracker",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -1999,6 +2047,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectTracker_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2042,6 +2091,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdsprpc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2091,6 +2141,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorslog",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2128,6 +2179,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_device_mode_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2171,6 +2223,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_fastRPC_util",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2212,6 +2265,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_low_lat_stream_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2255,6 +2309,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnsapi",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2302,6 +2357,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnsdiaglog",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2353,6 +2409,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2406,6 +2463,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssc_default_listener",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2445,6 +2503,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsysmon_cdsp_skel",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2482,6 +2541,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libthermalclient",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2521,6 +2581,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtime_genoff",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2560,6 +2621,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvppclient",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2615,6 +2677,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpphvx",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2656,6 +2719,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpplibrary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2707,6 +2771,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.ssc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2778,6 +2843,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oppo.hardware.commondcs@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2825,6 +2891,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oppo.hardware.hypnus@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2872,6 +2939,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.mwqem@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2915,6 +2983,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.dsp@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -2958,6 +3027,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.fingerprint@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3001,6 +3071,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.mwqemadapter@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3044,6 +3115,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3087,6 +3159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3132,6 +3205,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "btaudio_offload_if",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3165,6 +3239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.bluetooth_qti.default",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3197,6 +3272,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.primary.qcom",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3236,6 +3312,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sound_trigger.primary.sdm710",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3264,6 +3341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_audio@2.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3298,6 +3376,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFileMux_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3326,6 +3405,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxVideoDSMode",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3358,6 +3438,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxVpp",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3393,6 +3474,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdb-fts",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3421,6 +3503,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdbloader",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3453,6 +3536,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdbrtac",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3481,6 +3565,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadiertac",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3509,6 +3594,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadm",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3536,6 +3622,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadpcmdec",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3560,6 +3647,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudcal",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3587,6 +3675,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudio_log_utils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3615,6 +3704,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioalsa",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3639,6 +3729,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_qti",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3671,6 +3762,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcapiv2svacnn",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3697,6 +3789,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcapiv2vop",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3723,6 +3816,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdrc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3747,6 +3841,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-calwrapper",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3773,6 +3868,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-ipc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3800,6 +3896,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-osal",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3825,6 +3922,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3853,6 +3951,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblistensoundmodel2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3879,6 +3978,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmm-hdcpmgr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3906,6 +4006,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmrtpdecoder_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3934,6 +4035,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmrtpencoder_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3962,6 +4064,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmulawdec",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -3986,6 +4089,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqtigef",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4012,6 +4116,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsmwrapper",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4038,6 +4143,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssrec",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4070,6 +4176,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsurround_3mic_proc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4094,6 +4201,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinycompress",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4120,6 +4228,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdcodecv4l2_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4151,6 +4260,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdcommonutils_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4182,6 +4292,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdconfigutils_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4213,6 +4324,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfddisplayconfig_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4243,6 +4355,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdhdcpcp",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4271,6 +4384,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdhdcpservice_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4302,6 +4416,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmminterface_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4329,6 +4444,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmmservice_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4358,6 +4474,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmmsrc_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4400,6 +4517,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmodulehdcpsession",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4431,6 +4549,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdrtsp_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4461,6 +4580,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdsessionmodule",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4492,6 +4612,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdsourcesession_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4529,6 +4650,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdsourcesm_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4569,6 +4691,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcinterface_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4599,6 +4722,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsink_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4626,6 +4750,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsinkinterface_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4657,6 +4782,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsrc_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4688,6 +4814,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsrcinterface_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4719,6 +4846,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdutils_proprietary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4746,6 +4874,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libasphere",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4773,6 +4902,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcbassboost",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4800,6 +4930,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcreverb",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4827,6 +4958,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcvirt",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4854,6 +4986,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libshoebox",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4881,6 +5014,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysession@1.0_vendor",
+    check_elf_files: false,
     stem: "vendor.qti.hardware.wifidisplaysession@1.0",
     owner: "realme",
     strip: {
@@ -4910,6 +5044,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4940,6 +5075,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.frameworks.fingerprintservice@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -4970,6 +5106,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.gc2375h",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5000,6 +5137,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.gc5035",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5030,6 +5168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.hi846",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5060,6 +5199,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.imx316",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5090,6 +5230,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.imx362",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5120,6 +5261,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.imx471",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5150,6 +5292,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.imx519",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5180,6 +5323,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.imx586",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5210,6 +5354,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.s5k2x5",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5240,6 +5385,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.s5k3p9sp",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5270,6 +5416,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.s5kgw1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5300,6 +5447,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.sp2509v",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5330,6 +5478,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.arcsoft.node.yuvhdr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5365,6 +5514,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.bokeh",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5396,6 +5546,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.drawafinfo",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5425,6 +5576,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.frontbokeh",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5455,6 +5607,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.frontrtb",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5486,6 +5639,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.oppoengmode",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5516,6 +5670,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.postview",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5547,6 +5702,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.preview",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5582,6 +5738,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.rearrtb",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5612,6 +5769,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.sat",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5645,6 +5803,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.slicm",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5675,6 +5834,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.snapshota",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5708,6 +5868,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.snapshotb",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5741,6 +5902,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.tof",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5773,6 +5935,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oppo.node.tofmatch",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5805,6 +5968,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.eisv2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5833,6 +5997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.eisv3",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5861,6 +6026,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.hvx.addconstant",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5891,6 +6057,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.hvx.binning",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5921,6 +6088,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.dummyrtb",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5953,6 +6121,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.dummysat",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -5985,6 +6154,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.eisv2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6027,6 +6197,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.eisv3",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6069,6 +6240,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.gpu",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6102,6 +6274,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.memcpy",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6134,6 +6307,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.opposwremosaic",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6167,6 +6341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.remosaic",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6198,6 +6373,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.stich",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6230,6 +6406,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.superphoto",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6262,6 +6439,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swregistration",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6293,6 +6471,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.aec",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6324,6 +6503,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.af",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6355,6 +6535,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.afd",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6383,6 +6564,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.asd",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6411,6 +6593,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.awb",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6439,6 +6622,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.awbwrapper",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6470,6 +6654,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.haf",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6498,6 +6683,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.localhistogram",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6526,6 +6712,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.pdlib",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6554,6 +6741,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.pdlibsony",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6582,6 +6770,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.pdlibwrapper",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6610,6 +6799,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.aec",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6641,6 +6831,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.af",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6672,6 +6863,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.awb",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6703,6 +6895,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.pdlib",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6734,6 +6927,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.slam.node.process",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6766,6 +6960,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.vidhance.node.eis",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6800,6 +6995,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.vidhance.stats.aec_dmbr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6833,6 +7029,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.dpm.api@1.0_vendor",
+    check_elf_files: false,
     stem: "com.qualcomm.qti.dpm.api@1.0",
     owner: "realme",
     strip: {
@@ -6862,6 +7059,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6890,6 +7088,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6918,6 +7117,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6947,6 +7147,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -6977,6 +7178,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7005,6 +7207,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7034,6 +7237,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7064,6 +7268,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.0-impl-qti",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7099,6 +7304,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gatekeeper@1.0-impl-qti",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7131,6 +7337,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss@2.1-impl-qti",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7175,6 +7382,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.keymaster@3.0-impl-qti",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7208,6 +7416,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.qcom",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7253,6 +7462,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.dsi.ant@1.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7286,6 +7496,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.chi.override",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7322,6 +7533,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fingerprint.goodix_G2.default",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7357,6 +7569,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fingerprint.goodix_G3.default",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7392,6 +7605,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7439,6 +7653,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.alarm@1.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7471,6 +7686,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.1-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7504,6 +7720,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.btconfigstore@2.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7536,6 +7753,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.capabilityconfigstore@1.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7569,6 +7787,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qccvndhal@1.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7601,6 +7820,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qseecom@1.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7636,6 +7856,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qteeconnector@1.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7668,6 +7889,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.sensorscalibrate@1.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7702,6 +7924,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.soter@1.0-impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7737,6 +7960,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imscmservice",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7770,6 +7994,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsdpl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7803,6 +8028,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsqimf",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7830,6 +8056,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsrcs-v2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7882,6 +8109,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsrcsbaseimpl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7925,6 +8153,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvtcore",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7958,6 +8187,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsxml",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -7985,6 +8215,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rcsconfig",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8022,6 +8253,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rtpcommon",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8051,6 +8283,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rtpcore",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8082,6 +8315,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rtpsl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8114,6 +8348,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-siputility",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8142,6 +8377,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-uceservice",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8179,6 +8415,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3DSlender",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8204,6 +8441,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPQTEEC_vendor",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8235,6 +8473,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPTEE_vendor",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8262,6 +8501,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPreqcancel",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8292,6 +8532,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPreqcancel_svc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8319,6 +8560,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOPPORectify",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8344,6 +8586,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOppoAPSMemMgr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8372,6 +8615,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libPerfectlyClearCrux",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8396,6 +8640,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libPolarrRender",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8421,6 +8666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libQSEEComAPI",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8448,6 +8694,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libQTEEConnector_vendor",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8477,6 +8724,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSNPE",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8504,6 +8752,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSecureUILib",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8534,6 +8783,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX471RmscLibrary",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8558,6 +8808,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libStDrvInt",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8583,6 +8834,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDBlurlessAPI_v2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8602,13 +8854,13 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
     name: "libVDDualCameraBlurlessAPI",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8633,6 +8885,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDEyeEnhance",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8657,6 +8910,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDPostureDetection",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8681,6 +8935,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDSuperPhotoAPI",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8702,13 +8957,13 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
     name: "libaoa",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8733,6 +8988,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_beautyshot",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8758,6 +9014,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_distortion_correction",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8784,6 +9041,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_distortion_correction_710",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8810,6 +9068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_bokeh_api",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8835,6 +9094,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_refocus_left",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8860,6 +9120,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_refocus_preview",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8885,6 +9146,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_refocus_right",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8910,6 +9172,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_hdr_denoise_api",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8937,6 +9200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_hdrplus_hvx_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8961,6 +9225,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -8986,6 +9251,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_low_light_hdr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9011,6 +9277,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_portraitSN_hvx_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9035,6 +9302,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_portrait_super_night_raw",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9057,13 +9325,13 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_relighting_pro_image",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9090,6 +9358,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_smart_denoise",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9115,6 +9384,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_super_night_raw",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9137,13 +9407,13 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
     name: "libbatching",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9173,6 +9443,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbokehclient",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9201,6 +9472,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbtnv",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9225,6 +9497,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libc++_shared",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9247,6 +9520,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcacertclient",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9276,6 +9550,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera_core_hwi",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9310,6 +9585,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera_nn_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9344,6 +9620,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamhidlsensor",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9378,6 +9655,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxfdalgov7",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9402,6 +9680,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxfdalgov8",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9426,6 +9705,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxfdengine",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9454,6 +9734,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxstatscore",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9481,6 +9762,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxswprocessalgo",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9508,6 +9790,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxtintlessalgo",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9535,6 +9818,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdfw",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9561,6 +9845,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdfw_remote_api",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9587,6 +9872,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcne",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9640,6 +9926,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcneapiclient",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9675,6 +9962,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcneoplookup",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9701,6 +9989,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcneqmiutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9726,6 +10015,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcom.qti.chinodeutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9756,6 +10046,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libconfigdb",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9784,6 +10075,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcpion",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9810,6 +10102,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcvface_api",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9835,6 +10128,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libd++",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9858,6 +10152,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdataitems",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9886,6 +10181,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdisp-aba",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9912,6 +10208,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdisplayqos",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9936,6 +10233,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmqmihal",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9968,6 +10266,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdrmfs",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -9998,6 +10297,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdrmtime",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10028,6 +10328,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdsi_netctrl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10065,6 +10366,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgarden",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10109,6 +10411,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgarden_haltests_e2e",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10152,6 +10455,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgdtap",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10183,6 +10487,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgeofencing",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10212,6 +10517,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_hal_G2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10246,6 +10552,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_hal_G3",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10280,6 +10587,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgnss",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10309,6 +10617,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgnsspps",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10337,6 +10646,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgps.utils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10365,6 +10675,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhdr_tm",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10394,6 +10705,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhexagon_nn_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10421,6 +10733,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhypnusclient",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10455,6 +10768,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libizat_client_api",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10481,6 +10795,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libizat_core",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10512,6 +10827,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymasterdeviceutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10540,6 +10856,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymasterprovision",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10569,6 +10886,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymasterutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10597,6 +10915,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblbs_core",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10633,6 +10952,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloadalgo_stub",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10658,6 +10978,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_api_v02",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10689,6 +11010,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_core",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10717,6 +11039,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_socket",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10746,6 +11069,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblocation_api",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10774,6 +11098,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblocationservice",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10807,6 +11132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblocationservice_glue",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10841,6 +11167,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblowi_client",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10868,6 +11195,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblowi_wifihal",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10897,6 +11225,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblqe",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10929,6 +11258,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libminkdescriptor",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10956,6 +11286,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libminksocket",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -10983,6 +11314,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libml_util",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11008,6 +11340,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmcamera_faceproc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11032,6 +11365,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmcamera_faceproc2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11056,6 +11390,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnativehelpers",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11082,6 +11417,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11112,6 +11448,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_common",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11144,6 +11481,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_nr_fusion",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11176,6 +11514,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_rmnet_ext",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11208,6 +11547,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnlnetmgr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11239,6 +11579,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libocam_common",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11268,6 +11609,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libocam_snapshot_intf",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11298,6 +11640,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboppo_aisd",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11326,6 +11669,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboppo_log_print",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11353,6 +11697,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboppo_platform_hwi",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11384,6 +11729,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboppoalgolib",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11413,6 +11759,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libopposfr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11439,6 +11786,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libops",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11470,6 +11818,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpdmapper",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11501,6 +11850,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpdnotifier",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11531,6 +11881,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libperipheral_client",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11560,6 +11911,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcbor",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11587,6 +11939,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcc_file_agent",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11619,6 +11972,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcrilFramework",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11647,6 +12001,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcrildatactl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11673,6 +12028,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdi",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11706,6 +12062,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdma_file_agent",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11738,6 +12095,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdp",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11769,6 +12127,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqfp-service",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11802,6 +12161,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqisl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11829,6 +12189,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqrtr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11853,6 +12214,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqseed3",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11877,6 +12239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqsocket",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11901,6 +12264,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqtikeymaster4",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11936,6 +12300,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librcc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -11964,6 +12329,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-hal-qmi",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12070,6 +12436,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-logger",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12097,6 +12464,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-ltedirectdisc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12121,6 +12489,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-radioconfig",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12145,6 +12514,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qcril-hook-oem",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12173,6 +12543,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librilqmiservices",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12198,6 +12569,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librpmb",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12225,6 +12597,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdedrm",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12252,6 +12625,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-color",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12282,6 +12656,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-diag",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12310,6 +12685,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-disp-vndapis",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12340,6 +12716,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdmextension",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12368,6 +12745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecureui",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12401,6 +12779,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecureui_svcsock",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12430,6 +12809,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorcal",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12461,6 +12841,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsettings",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12489,6 +12870,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libslimclient",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12520,6 +12902,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnpe_dsp_domains_v2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12539,13 +12922,13 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
     name: "libsnpeml",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12572,6 +12955,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspcom",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12600,6 +12984,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12627,6 +13012,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssd",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12656,6 +13042,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstface_fd_api",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12681,6 +13068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswregistrationalgo",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12707,6 +13095,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsymphony-cpu",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12733,6 +13122,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsymphonypower",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12757,6 +13147,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsystem_health_mon",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12784,6 +13175,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinyxml2_1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12808,6 +13200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtriplecam_image_optical_zoom",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12834,6 +13227,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtriplecam_optical_zoom_control",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12859,6 +13253,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtriplecam_video_optical_zoom",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12885,6 +13280,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrustedapploader",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12913,6 +13309,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtzdrmgenprov",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12941,6 +13338,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvidhance",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -12951,6 +13349,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libvidhance.so",
             ],
             shared_libs: [
+                "libcomparetf2_shim",
                 "libGLESv3",
                 "libEGL",
                 "libGLESv2",
@@ -12963,13 +13362,13 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
     name: "libwms",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13006,6 +13405,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwqe",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13047,6 +13447,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxml",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13074,6 +13475,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxtadapter",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13102,6 +13504,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "qcom.camera.log",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13128,6 +13531,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "qcrild_librilutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13152,6 +13556,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "qtibus",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13180,6 +13585,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "qtimutex",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13204,107 +13610,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libBeautyShot_skel",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/rfsa/adsp/libBeautyShot_skel.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "rfsa/adsp",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libdsp_streamer_add_constant",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/rfsa/adsp/libdsp_streamer_add_constant.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "rfsa/adsp",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libdsp_streamer_skel",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/rfsa/adsp/libdsp_streamer_skel.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "rfsa/adsp",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsns_device_mode_skel",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "rfsa/adsp",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsns_low_lat_stream_skel",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    relative_install_path: "rfsa/adsp",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "unnhal-acc-adreno",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13331,6 +13638,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unnhal-acc-common",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13372,6 +13680,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unnhal-acc-hvx",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13406,6 +13715,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13434,6 +13744,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13463,6 +13774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13493,6 +13805,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.3",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13524,6 +13837,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.4",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13556,6 +13870,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.5",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13589,6 +13904,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.postproc@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13617,6 +13933,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.commondcs@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13645,6 +13962,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13680,6 +13998,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13718,6 +14037,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13758,6 +14078,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.slm@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13786,6 +14107,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13815,6 +14137,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13845,6 +14168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13876,6 +14200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@2.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13908,6 +14233,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@2.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13941,6 +14267,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@3.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -13975,6 +14302,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0-service",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14016,6 +14344,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14051,6 +14380,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.alarm@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14079,6 +14409,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14107,6 +14438,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14136,6 +14468,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.cacert@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14164,6 +14497,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.api@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14193,6 +14527,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.constants@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14221,6 +14556,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.server@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14250,6 +14586,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14278,6 +14615,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14307,6 +14645,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.dynamicdds@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14335,6 +14674,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.iwlan@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14368,6 +14708,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.latency@1.0_vendor",
+    check_elf_files: false,
     stem: "vendor.qti.hardware.data.latency@1.0",
     owner: "realme",
     strip: {
@@ -14397,6 +14738,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.qmi@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14425,6 +14767,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.fm@1.0_vendor",
+    check_elf_files: false,
     stem: "vendor.qti.hardware.fm@1.0",
     owner: "realme",
     strip: {
@@ -14454,6 +14797,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qccsyshal@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14482,6 +14826,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qccvndhal@1.0-halimpl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14512,6 +14857,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qccvndhal@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14540,6 +14886,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qseecom@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14568,6 +14915,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qteeconnector@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14596,6 +14944,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.am@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14624,6 +14973,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.atcmdfwd@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14652,6 +15002,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14680,6 +15031,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14709,6 +15061,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14739,6 +15092,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.3",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14770,6 +15124,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.4",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14802,6 +15157,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.5",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14835,6 +15191,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.6",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14869,6 +15226,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.internal.deviceinfo@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14897,6 +15255,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.lpa@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14925,6 +15284,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.lpa@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14954,6 +15314,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qcrilhook@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -14982,6 +15343,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15010,6 +15372,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15040,6 +15403,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15071,6 +15435,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15103,6 +15468,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.3",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15136,6 +15502,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.4",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15171,6 +15538,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.5",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15207,6 +15575,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15235,6 +15604,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15264,6 +15634,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15294,6 +15665,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15322,6 +15694,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15351,6 +15724,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.2",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15381,6 +15755,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_server@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15409,6 +15784,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.sensorscalibrate@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15437,6 +15813,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.slmadapter@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15465,6 +15842,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.soter@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15493,6 +15871,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.tui_comm@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15521,6 +15900,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.callcapability@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15549,6 +15929,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.callinfo@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15577,6 +15958,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.factory@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15607,6 +15989,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15635,6 +16018,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@1.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15664,6 +16048,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@2.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15692,6 +16077,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@2.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15721,6 +16107,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0-service-Impl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -15754,6 +16141,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0_vendor",
+    check_elf_files: false,
     stem: "vendor.qti.imsrtpservice@3.0",
     owner: "realme",
     strip: {
@@ -15783,6 +16171,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.latency@2.0_vendor",
+    check_elf_files: false,
     stem: "vendor.qti.latency@2.0",
     owner: "realme",
     strip: {
@@ -16109,6 +16498,7 @@ prebuilt_rfsa {
 
 cc_prebuilt_library_shared {
     name: "libmmosal",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16150,6 +16540,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmparser_lite",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16193,6 +16584,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmrtpdecoder",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16236,6 +16628,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmrtpencoder",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16279,6 +16672,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdclient",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16338,6 +16732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdcommonutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16415,6 +16810,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdconfigutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16464,6 +16860,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfddisplayconfig",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16515,6 +16912,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmminterface",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16556,6 +16954,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmmsink",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16637,6 +17036,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdrtsp",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16684,6 +17084,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdsinksm",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16751,6 +17152,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcinterface",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16798,6 +17200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsink",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16839,6 +17242,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsinkinterface",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16888,6 +17292,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsrc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16937,6 +17342,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsrcinterface",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -16986,6 +17392,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysession@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17029,6 +17436,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdavenhancements",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17059,6 +17467,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmmsrc_system",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17069,6 +17478,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib/libwfdmmsrc_system.so",
             ],
             shared_libs: [
+                "libgui_shim",
                 "libbinder",
                 "libmmosal",
                 "liblog",
@@ -17105,6 +17515,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdservice",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17115,6 +17526,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib/libwfdservice.so",
             ],
             shared_libs: [
+                "libaudioclient_shim",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -17147,70 +17559,12 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libaiboost_skel",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system_ext/lib/rfsa/adsp/libaiboost_skel.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    check_elf_files: false,
-    relative_install_path: "rfsa/adsp",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libaiboost_skel_v65",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system_ext/lib/rfsa/adsp/libaiboost_skel_v65.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    check_elf_files: false,
-    relative_install_path: "rfsa/adsp",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libaiboost_skel_v66",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system_ext/lib/rfsa/adsp/libaiboost_skel_v66.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    check_elf_files: false,
-    relative_install_path: "rfsa/adsp",
-    prefer: true,
-    system_ext_specific: true,
+    allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17237,6 +17591,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.ant@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17265,6 +17620,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.dpm.api@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17293,6 +17649,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fm_helium",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17321,6 +17678,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvideocodec",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17355,6 +17713,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvt",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17396,6 +17755,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvtextutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17427,6 +17787,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvtutils",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17455,6 +17816,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdiag_system",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17489,6 +17851,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmctmgr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17519,6 +17882,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmfdmgr",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17549,6 +17913,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmframework",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17582,6 +17947,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmtcm",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17612,6 +17978,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfm-hci",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17642,6 +18009,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimscamera_jni",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17670,6 +18038,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimsmedia_jni",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17705,6 +18074,7 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    check_elf_files: false,
     target: {
         android_arm64: {
             srcs: [
@@ -17741,6 +18111,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ImsRtpService-V1-ndk",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17767,6 +18138,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17795,6 +18167,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.latency@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17823,6 +18196,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.fm@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17851,6 +18225,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17879,6 +18254,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.1",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17908,6 +18284,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.latency@2.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17936,6 +18313,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbsproxy",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -17977,6 +18355,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "oplus.sensors.ssc",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18028,6 +18407,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioEngineerTest",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18057,6 +18437,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libavutil",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18079,6 +18460,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboemcrypto",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18112,6 +18494,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libormshalclient",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18144,6 +18527,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswresample",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18167,6 +18551,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswscale",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18190,6 +18575,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvhidl",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18227,6 +18613,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvdrmengine",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18259,6 +18646,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.appradio@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18287,6 +18675,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.ims@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18315,6 +18704,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.orms@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18343,6 +18733,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.radio@1.0",
+    check_elf_files: false,
     owner: "realme",
     strip: {
         none: true,
@@ -18635,6 +19026,8 @@ dex_import {
     ],
     system_ext_specific: true,
 }
+
+
 
 prebuilt_etc_xml {
     name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
@@ -19072,37 +19465,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "android.hardware.health@2.1-service",
-    owner: "realme",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.health@2.1-service",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "android.hardware.health@2.1",
-                "android.hardware.health@2.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "android.hardware.keymaster@3.0-service-qti",
