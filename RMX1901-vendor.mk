@@ -1011,4 +1011,41 @@ RMX1901_QSSI15_WFD_COPY_SOURCES := \
 PRODUCT_PACKAGES := $(filter-out $(RMX1901_QSSI15_WFD_PACKAGES),$(PRODUCT_PACKAGES))
 PRODUCT_BOOT_JARS := $(filter-out WfdCommon,$(PRODUCT_BOOT_JARS))
 PRODUCT_COPY_FILES := $(filter-out $(foreach source,$(RMX1901_QSSI15_WFD_COPY_SOURCES),$(source):%),$(PRODUCT_COPY_FILES))
+
+# These system-side clients were extracted from QSSI 15 and cannot be loaded by
+# the Android 11 Halium userspace. Keep the vendor-side providers and Android
+# products unchanged; only remove the audited clients and their consumer roots.
+RMX1901_QSSI15_SYSTEM_CLIENT_PACKAGES := \
+    CneApp \
+    ImsRcsService \
+    com.qualcomm.qti.ant@1.0 \
+    ims \
+    lib-imsvideocodec \
+    lib-imsvt \
+    lib-imsvtextutils \
+    lib-imsvtutils \
+    libimscamera_jni \
+    libimsmedia_jni \
+    system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
+    system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
+    vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.hardware.data.latency-V1.0-java \
+    vendor.qti.hardware.data.latency@1.0 \
+    vendor.qti.ims.connectionaidlservice-V1-java \
+    vendor.qti.ims.factory-V2.0-java \
+    vendor.qti.ims.factory-V2.1-java \
+    vendor.qti.ims.factory-V2.2-java \
+    vendor.qti.ims.factoryaidlservice-V1-java \
+    vendor.qti.ims.rcssipaidlservice-V1-java \
+    vendor.qti.ims.rcsuceaidlservice-V1-java \
+    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.1 \
+    vendor.qti.latency-V2.0-java \
+    vendor.qti.latency@2.0
+
+RMX1901_QSSI15_SYSTEM_CLIENT_COPY_SOURCES := \
+    vendor/realme/RMX1901/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
+
+PRODUCT_PACKAGES := $(filter-out $(RMX1901_QSSI15_SYSTEM_CLIENT_PACKAGES),$(PRODUCT_PACKAGES))
+PRODUCT_COPY_FILES := $(filter-out $(foreach source,$(RMX1901_QSSI15_SYSTEM_CLIENT_COPY_SOURCES),$(source):%),$(PRODUCT_COPY_FILES))
 endif
