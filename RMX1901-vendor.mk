@@ -978,3 +978,47 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# The system-side WFD prebuilts are from QSSI 15 and are not ABI-compatible
+# with the Android 11 Halium userspace. Keep the generated product unchanged
+# for ordinary Android builds, but omit the complete cohort for Halium.
+ifeq ($(TARGET_PRODUCT),halium_RMX1901)
+RMX1901_QSSI15_WFD_PACKAGES := \
+    WfdCommon \
+    WfdService \
+    libmmosal \
+    libmmparser_lite \
+    libmmrtpdecoder \
+    libmmrtpencoder \
+    libwfdavenhancements \
+    libwfdclient \
+    libwfdcommonutils \
+    libwfdconfigutils \
+    libwfddisplayconfig \
+    libwfdmminterface \
+    libwfdmmsink \
+    libwfdmmsrc_system \
+    libwfdnative \
+    libwfdrtsp \
+    libwfdservice \
+    libwfdsinksm \
+    libwfduibcinterface \
+    libwfduibcsink \
+    libwfduibcsinkinterface \
+    libwfduibcsrc \
+    libwfduibcsrcinterface \
+    system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
+    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
+    wfdservice
+
+RMX1901_QSSI15_WFD_COPY_SOURCES := \
+    vendor/realme/RMX1901/proprietary/system_ext/etc/init/wfdservice.rc \
+    vendor/realme/RMX1901/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
+    vendor/realme/RMX1901/proprietary/system_ext/etc/seccomp_policy/wfdservice.policy \
+    vendor/realme/RMX1901/proprietary/system_ext/etc/wfdconfigsink.xml
+
+PRODUCT_PACKAGES := $(filter-out $(RMX1901_QSSI15_WFD_PACKAGES),$(PRODUCT_PACKAGES))
+PRODUCT_BOOT_JARS := $(filter-out WfdCommon,$(PRODUCT_BOOT_JARS))
+PRODUCT_COPY_FILES := $(filter-out $(foreach source,$(RMX1901_QSSI15_WFD_COPY_SOURCES),$(source):%),$(PRODUCT_COPY_FILES))
+endif
