@@ -42,8 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/realme/RMX1901/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/realme/RMX1901/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
-    vendor/realme/RMX1901/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
-    vendor/realme/RMX1901/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/realme/RMX1901/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/realme/RMX1901/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/realme/RMX1901/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
@@ -281,7 +279,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    vendor.qti.diaghal-V1-ndk \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
@@ -838,10 +835,7 @@ PRODUCT_PACKAGES += \
     lib-imsvtextutils \
     lib-imsvtutils \
     libdiag_system \
-    libdpmctmgr \
-    libdpmfdmgr \
     libdpmframework \
-    libdpmtcm \
     libfm-hci \
     libimscamera_jni \
     libimsmedia_jni \
@@ -875,14 +869,10 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     QtiTelephonyService \
     WfdService \
-    dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
-    tcmclient \
     audiosphere \
-    com.qti.dpmframework \
-    dpmapi \
     qcrilhook \
     qti-telephony-common \
     vendor.qti.hardware.data.latency-V1.0-java \
