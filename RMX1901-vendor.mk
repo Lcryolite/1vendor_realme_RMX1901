@@ -129,7 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/realme/RMX1901/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/realme/RMX1901/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.realme_sdm710.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.realme_sdm710.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-sscrpc-service.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/realme/RMX1901/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
@@ -864,6 +864,7 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     vendor.oplus.hardware.appradio@1.0 \
+    vendor.oplus.hardware.biometrics.fingerprint@2.1 \
     vendor.oplus.hardware.ims@1.0 \
     vendor.oplus.hardware.orms@1.0 \
     vendor.oplus.hardware.radio@1.0 \
@@ -895,6 +896,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
     vendor.qti.latency-V2.0-java \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
+    rmx1901-fingerprint-oplus.xml \
     ATFWD-daemon \
     adpl \
     adsprpcd \
@@ -906,6 +908,7 @@ PRODUCT_PACKAGES += \
     garden_app \
     hvdcp_opti \
     android.hardware.bluetooth@1.0-service-qti \
+    android.hardware.biometrics.fingerprint@2.1-service.realme_sdm710 \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.keymaster@3.0-service-qti \
@@ -913,7 +916,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti \
     qcrild \
     vendor.display.color@1.0-service \
-    vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.qccvndhal@1.0-service \

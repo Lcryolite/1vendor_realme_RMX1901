@@ -19645,28 +19645,61 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+prebuilt_etc_xml {
+    name: "rmx1901-fingerprint-oplus.xml",
+    owner: "realme",
+    src: "proprietary/vendor/etc/vintf/manifest/rmx1901-fingerprint-oplus.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oplus.hardware.biometrics.fingerprint@2.1",
+    check_elf_files: false,
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
-    name: "vendor.oppo.hardware.biometrics.fingerprint@2.1-service",
+    name: "android.hardware.biometrics.fingerprint@2.1-service.realme_sdm710",
     owner: "realme",
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service",
+                "proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.realme_sdm710",
             ],
             shared_libs: [
-                "libbinder",
+                "libcutils",
                 "liblog",
                 "libhidlbase",
-                "libhidltransport",
-                "libutils",
-                "vendor.oppo.hardware.biometrics.fingerprint@2.1",
-                "android.frameworks.fingerprintservice@1.0",
-                "libQSEEComAPI",
-                "vendor.oppo.hardware.hypnus@1.0",
-                "libhypnusclient",
-                "vendor.oppo.hardware.commondcs@1.0",
                 "libhardware",
-                "libcutils",
+                "libutils",
+                "libbase",
+                "android.hardware.biometrics.fingerprint@2.1",
+                "vendor.oplus.hardware.biometrics.fingerprint@2.1",
                 "libc++",
                 "libc",
                 "libm",
